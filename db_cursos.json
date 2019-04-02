@@ -1,0 +1,352 @@
+{
+"Cursos":[
+    {
+        "Id": 1,
+        "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
+        "Nome": "Técnico em Eventos",
+        "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias. \n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação. Executa procedimentos de recepção e encaminhamentos demandados por eventos. \n Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
+        "CargaHoraria": "3000 horas",
+        "Duracao": "3 anos"
+    },
+
+    {
+        "id": 2,
+        "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
+        "Nome": "Técnico em Informática",
+        "Descricao": "Instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. \n Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral.\n Instala e configura redes de computadores locais de pequeno porte.",
+        "CargaHoraria": "3567 horas",
+        "Duracao": "3 anos"
+    },
+
+    {
+        "id": 3,
+        "Modalidade": "Cursos Técnicos Subsequentes",
+        "Nome": "Técnico em Comércio",
+        "Descricao": "Aplica métodos de comercialização de bens e serviços. Efetua controle quantitativo e qualitativo de produtos. \nCoordena a armazenagem no estabelecimento comercial. Elabora planilha de custos. \n Verifica a demanda e comunica previsões aos fornecedores. Operacionaliza planos de marketing e comunicação, logística, recursos humanos e comercialização.", 
+        "CargaHoraria": "1200 horas",
+        "Turno": "Noturno",
+        "Duracao": "1 ano e meio",
+        "Vagas": 40,
+        "Coordenador": "Neli Terezinha da Silva"
+    },
+
+    {
+        "id": 4,
+        "Modalidade": "Cursos Técnicos Subsequentes",
+        "Nome": "Técnico em Eventos",
+        "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias.\n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação.\n Executa procedimentos de recepção e encaminhamentos demandados por eventos. Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
+        "CargaHoraria": "800h",
+        "Turno": "Matutino",
+        "Duracao": "1 ano",
+        "Vagas": "x",
+        "Coordenador": "Raquel Laje Tuma"
+    },
+
+    {
+        "id": 5,
+        "Modalidade": "Cursos Técnicos Subsequentes",
+        "Nome": "Técnico em Informática: Desenvolvimento de Sistemas",
+        "Descricao": "Desenvolve sistemas computacionais utilizando ambiente de desenvolvimento. Modela, implementa e mantém banco de dados.\n Utiliza linguagem de programação específica. Realiza testes de programas de computador.\n Mantém registros para análise e refinamento de resultados. Elabora documentação do sistema. Aplica princípios e definição de análise de dados. Executa manutenção de programas de computador.",
+        "CargaHoraria": "1160h",
+        "Turno": "Vespertino",
+        "Duracao": "1 ano e meio",
+        "Vagas": 60,
+        "Coordenador": "Marco Rogério Calheira Lima"
+    },
+
+    {
+        "id": 6,
+        "Modalidade": "Cursos Técnicos Subsequentes",
+        "Nome": "Técnico em Serviços Públicos",
+        "Descricao": "Realiza atendimento ao público. Realiza apoio administrativo e de gestão de pessoas. \n Controla procedimentos organizacionais. Organiza materiais. Executa as operações decorrentes de programas e projetos de políticas públicas.",
+        "CargaHoraria": "980h",
+        "Turno": "Vespertino/Noturno",
+        "Duracao": "1 ano e meio",
+        "Vagas": 44
+    },
+
+    {
+        "id": 7,
+        "Modalidade": "Cursos Superiores - Graduação",
+        "Tipo": "LICENCIATURA: Esses cursos são indicados para quem quer se tornar professor e ministrar aulas.",
+        "Nome": "Licenciatura em Dança",
+        "Descricao": "O Licenciado em Dança é o artista-educador que relaciona teoria e prática pedagógica em seus aspectos críticos, reflexivos e conceituais.\nInter-relaciona conteúdos históricos, estéticos, filosóficos, políticos, culturais e sociais em processos educacionais em dança. Domina competências específicas da dança e do ensino e os aplica na aprendizagem significativa da dança e no exercício da cidadania.\nDesenvolve atividades educacionais na dança em interação com outras linguagens artísticas e atua como agente cultural incentivadorde atividades artísticas e de apreciação crítica e estética no meio sócio-político-educacional em que vive.\nReflete criticamente sobre os aspectos políticos e culturais da ação educativa e sobre seu papel de educador na sociedade, propondo, inclusive, novas frentes de atuação artístico-educacional.",
+        "CargaHoraria": "3171h",
+        "Turno": "Diurno",
+        "Duracao": "4 anos",
+        "Vagas": 30,
+        "Coordenador": "Fauzi Mansur",
+        "E-mail": "fauzi.mansur@ifb.edu.br"
+    },
+
+    {
+        "id": 8,
+        "Modalidade": "Cursos Superiores - Graduação",
+        "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
+        "Nome": "Tecnologia em Eventos",
+        "Descricao": "Planeja e organiza eventos sociais, esportivos, culturais, científicos, artísticos, corporativos, gastronômicos e turísticos. Realiza a captação de eventos. Elabora projetos de captação de recursos para os         diversos tipos de eventos.\n Aplica e gerencia o cerimonial, protocolo e etiqueta formal. Coordena serviços de         entretenimento em eventos. Planeja logística de eventos. Articula a comunicação entre a organização do evento,         clientes e patrocinadores. Coordena estratégias de promoção e vendas de eventos. Desenvolve programas, roteiros e atividades de recreação complementares a eventos.\n Vistoria, avalia e emite parecer técnico em sua área de formação.",
+        "CargaHoraria": "1600 horas",
+        "Turno": "Matutino",
+        "Duracao": "2 anos",
+        "Vagas": 40,
+        "Coordenador": "Rafaela Caetano Pinto"
+    },
+
+    {
+        "id": 9,
+        "Modalidade": "Cursos Superiores - Graduação",
+        "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
+        "Nome": "Tecnologia em Gestão Pública",
+        "Descricao": "Diagnostica o cenário político, econômico, social e legal na totalidade da gestão pública.\nDesenvolve e aplica inovações científico-tecnológicas nos processos de gestão pública. Planeja, implanta, supervisiona e avalia projetos e programas de políticas públicas voltados para o desenvolvimento local e regional.\n Aplica metodologias inovadoras de gestão, baseadas nos princípios da administração pública, legislação vigente, tecnologias gerenciais, aspectos ambientais e ética profissional. Planeja e implanta ações vinculadas à prestação de serviços públicos que se relacionam aos setores e segmentos dos processos de gestão. Avalia e emite parecer técnico em sua área de formação.",
+        "CargaHoraria": "2500h",
+        "Turno": "Noturno",
+        "Duracao": "3 anos",
+        "Vagas": 45,
+        "Coordenador": "Maria Marclane Bezerra"
+    },
+
+    {
+        "id": 10,
+        "Modalidade": "Cursos Superiores - Graduação",
+        "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
+        "Nome": "Tecnologia em Processos Gerenciais",
+        "Descricao": "Analisa e avalia o ambiente interno e externo e formula objetivos e estratégias gerenciais.\nPlaneja, projeta, gerencia e promove os processos organizacionais e os sistemas da organização. Desenvolve e gerencia processos logísticos, financeiros e de custos. Otimiza os recursos da organização, por meio de melhorias nos processos.\nPromove a gestão e governança por processos e consequentemente o desenvolvimento de sistemas, a gestão do conhecimento, o redesenho e a melhoria. Promove a mudança organizacional planejada. Vistoria, realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação.",
+        "CargaHoraria": "1740h",
+        "Turno": "Noturno",
+        "Duracao": "2 anos e meio",
+        "Vagas": 40,
+        "Coordenador": "Luciano Silva",
+        "E-mail": "luciano.silva@ifb.edu.br"
+    },
+
+    {
+        "id": 11,
+        "Modalidade": "Cursos Superiores - Graduação",
+        "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
+        "Nome": "Tecnologia em Sistemas para Internet",
+        "Descricao": "Projeta, desenvolve, testa, implanta, mantém, avalia e analisa páginas para sites de Internet e intranets, sistemas de comércio eletrônico e aplicativos para plataformas móveis para a Internet.\n Avalia, especifica, seleciona e utiliza metodologias e ferramentas adequadas para o desenvolvimento das aplicações. Elabora e estabelece diretrizes para a criação de interfaces adequadas à aplicação de acordo com características, necessidades e público-alvo. Vistoria, realiza perícia, avalia, emite laudo e parecer técnico em sua área de formação.",
+        "CargaHoraria": "2100 horas",
+        "Turno": " Diurno/Noturno",
+        "Duracao": "2 anos e meio",
+        "Vagas": 60,
+        "Coordenador": "Marcelo Machado Feres"
+    },
+
+    {
+        "id": 12,
+        "Modalidade": "Curso Superiores - Especialização e Mestrado",
+        "Nome": "Especialização em Gestão Pública: Governança e Políticas Públicas",
+        "Descricao": "Curso Lato Sensu da área de Administração em Ciências Sociais Aplicadas com o objetivo de capacitar pessoas de nível superior para atuarem de maneira eficaz, eficiente e efetiva no planejamento,   execução e avaliação de políticas públicas, seguindo os princípios da governança do setor público.",
+        "PreRequisito": "Alunos que já concluíram a graduação em qualquer área de reconhecimento e que desejam aperfeiçoar os estudos em governança e políticas públicas.",
+        "CargaHoraria": "",
+        "Turno": "Matutino/Noturno",
+        "Vagas": 45
+    },
+
+    {
+        "id": 13,
+        "Modalidade": "Curso Superiores - Especialização e Mestrado",
+        "Nome": "Mestrado Profissional em Educação Profissional e Tecnológica em Rede Nacional ",
+        "Descricao": "Mestrado profissional semipresencial em Educação Profissional e Tecnológica em rede nacional, da área de Ensino, com o objetivo de proporcionar formação em educação profissional e tecnológica, visando tanto à produção de conhecimento como o desenvolvimento de produtos.",
+        "PreRequisito": "Alunos que já concluíram a graduação em qualquer área de reconhecimento e que desejam aperfeiçoar os estudos com o mestrado profissional em educação profissional e tecnológica, sendo que metade das vagas é destinada a servidores pertencentes ao quadro permanente das instituições da Rede Federal de Educação Profissional, Científica e Tecnológica.",
+        "CargaHoraria": "480 horas",
+        "Turno": "Diurno/Noturno",
+        "Duracao": "2 anos",
+        "Vagas": 24,
+        "Coordenador": "Simone Braz Ferreira Gontijo",
+        "E-mail": "simone.gontijo@ifb.edu.br"
+    },
+
+    {
+        "id": 14,
+        "Modalidade": "Cursos de Formação Inicial e Continuada (FIC)",
+        "Nome": "FIC em Auxiliar de Marketing",
+        "Descricao": "Desenvolver as habilidades de observar e analisar o comportamento de consumidores, de forma a construir ações de mercado favoráveis às metas da empresa.",
+        "CargaHoraria": "300 horas",
+        "Turno": "Noturno",
+        "Duracao": "6 meses",
+        "Vagas": 80
+    },
+
+    {
+        "id": 15,
+        "Modalidade": "Cursos de Formação Inicial e Continuada (FIC)",
+        "Nome": "FIC em Espanhol",
+        "Descricao": "Curso completo para aprendizado do idioma e particularidades do Espanhol.",
+        "CargaHoraria": "300 horas",
+        "Turno": "Vespertino/noturno",
+        "Duracao": "3 anos",
+        "Vagas": 25
+    },
+
+    {
+        "id": 16,
+        "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
+        "Tipo": "Subsequentes",
+        "Nome": "Eventos",
+        "Descricao": "O profissional formado no curso Técnico em Eventos projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias.\nUtiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação. Executa procedimentos de recepção e encaminhamentos demandados por eventos. Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
+        "CargaHoraria": "815 horas",
+        "Duracao": "3 semestres "
+    },
+
+    {
+        "Id": 17,
+        "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
+        "Tipo": "Subsequentes",
+        "Nome": "Hospedagem",
+        "Descricao": "Concluída sua formação técnica, o estudante que tenha alcançado o nível esperado de aproveitamento deverá ser capaz de: atuar na recepção, reserva, mensageria, concièrgerie, governança e restauração em meios de hospedagem;\nexecutar atividades operacionais de recepção e atendimento a clientes e serviços de andares, com critérios de qualidade na prestação desses serviços;\nprestar suporte ao hóspede durante sua estada, valorizando as características culturais, históricas e ambientais do local de sua atuação.",
+        "CargaHoraria": "800 horas (ou 960 horas/aula)",
+        "Duracao": "3 semestres"
+    },
+
+    {
+        "Id": 18,
+        "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
+        "Tipo": "Subsequentes",
+        "Nome": "Informática",
+        "Descricao": "Deve ser capaz de analisar, projetar, documentar, testar, implantar e manter em funcionamentos sistemas computacionais de informação para Desktop e para Internet.",
+        "CargaHoraria": "1.200h",
+        "Duracao": "3 semestres (1 ano e meio)"
+    },
+
+    {
+        "Id": 19,
+        "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
+        "Tipo": "Subsequentes",
+        "Nome": "Programador de Jogos Digitais",
+        "Descricao": "Pessoas com ensino médio concluído e/ou profissionais que atuam nas áreas próprias ou afins de Tecnologia (com ensino médio concluído),\n bem como graduados envolvidos com desenvolvimento de software e/ou atividades de implantação e manutenção de soluções tecnológicas para Web e Mobile.",
+        "CargaHoraria": "1.050 horas",
+        "Duracao": "4 semestres (2 anos)"
+    },
+
+    {
+        "Id": 20,
+        "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
+        "Tipo": "FIC",
+        "Nome": "Operador de Gravação e Edição de Áudio",
+        "Descricao": "Além de operar equipamentos de áudio, fazer edição e mixagem de trilhas sonoras, músicas, vinhetas, comerciais, chamadas promocionais e programas, o profissional dessa área precisa saber administrar o tempo e improvisar diante das situações de trabalho. ",
+        "CargaHoraria": "400h"
+    },
+
+    {
+        "Id": 21,
+        "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
+        "Tipo": "FIC",
+        "Nome": "Operador de Câmera",
+        "Descricao": "Este curso possibilita que o aluno, ao concluí-lo, seja capaz de captar imagens em movimento através de diferentes câmeras, realizar produções cinematográficas, televisivas e multimídia, com teor artístico, jornalístico, documental e publicitário, além de interpretar visualmente roteiros, entre outras atribuições.",
+        "CargaHoraria": "400h"
+    },
+
+    {
+        "Id": 22,
+        "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
+        "Tipo": "FIC",
+        "Nome": "Programador de Sistemas",
+        "Descricao": "Codificar programas, realizar manutenção em sistemas.",
+        "CargaHoraria": "200 h",
+        "Duracao": "6 meses"
+    },
+
+    {
+        "Id": 23,
+        "Modalidade": "Educação à Distância em Concomitância com o Ensino Médio",
+        "Tipo": "Mediotec",
+        "Nome": "Informática",
+        "Descricao": "Deve ser capaz de analisar, projetar, documentar, testar, implantar e manter em funcionamentos sistemas computacionais de informação para Desktop e para Internet.",
+        "CargaHoraria": "1.200h",
+        "EncontroPresencial": "Terça-feira (Matutino)",
+        "Duracao": "3 semestres (1 ano e meio)"
+    },
+
+    {
+        "Id": 24,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "E-Tec",
+        "Nome": "Administração",
+        "Descricao": "Executa as funções de apoio administrativo: protocolo e arquivo, confecção e expedição de documentos administrativos e controle de estoques. Opera sistemas de informações gerenciais de pessoal e material. Utiliza ferramentas da informática básica, como suporte às operações organizacionais.",
+        "CargaHoraria": "1.020 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 25,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "E-Tec",
+        "Nome": "Logística",
+        "Descricao": "Este curso possibilita que o aluno, ao concluí-lo, desenvolva as competências profissionais gerais do Técnico do segmento Logístico, pertencente ao eixo tecnológico: Gestão e Negócio, determinadas pelas Diretrizes Curriculares Nacionais para a Educação Profissional de Nível Técnico. ",
+        "CargaHoraria": "960 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 26,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "E-Tec",
+        "Nome": "Meio Ambiente",
+        "Descricao": "O Profissional formado no Curso Técnico em Meio Ambiente será diplomado para atuar em empresas privadas ou órgãos governamentais ou não governamentais, voltados para o planejamento e a gestão ambiental, contribuindo para a promoção da educação ambiental e para a consolidação do desenvolvimento sustentável local e, consequentemente, global.",
+        "CargaHoraria": "960 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 27,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "E-Tec",
+        "Nome": "Segurança do Trabalho",
+        "Descricao": "Este curso possibilita que o aluno, ao concluí-lo, esteja apto para desenvolver competências profissionais gerais do Técnico do segmento Segurança do Trabalho, pertencente ao eixo tecnológico: Ambiente, Saúde e Segurança, determinadas pelas Diretrizes Curriculares Nacionais para a Educação Profissional de Nível Técnico.",
+        "CargaHoraria": "1.260 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 28,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "E-Tec",
+        "Nome": "Serviços Públicos",
+        "Descricao": "Profissional apto para desenvolver competências profissionais do segmento de Gestão Pública determinadas pelas Diretrizes Curriculares Nacionais para a Educação Profissional de Nível Técnico.\nOutras competências: utilizar os instrumentos de planejamento, bem como executar, controlar e avaliar os procedimentos dos ciclos de pessoal, recursos materiais, tributário, financeiro, contábil, patrimônio e de sistemas de informações; empregar o vocabulário técnico específico na comunicação com os diferentes profissionais da área; \nutilizar os diversos tipos de equipamentos, de instrumentos de trabalho, de materiais e suas possibilidades gerenciais; identificar características, possibilidades e limites na área de atuação profissional; executar atividades relacionadas à administração pública, nas esferas federal, estadual e municipal, utilizando aplicativos de informática e outros dispositivos tecnológicos.",
+        "CargaHoraria": "1.020 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 29,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "Profuncionário",
+        "Nome": "Multimeios Didáticos",
+        "Descricao": "O Técnico em Multimeios Didáticos é o profissional que demonstra habilidade de comunicação e de trabalho em equipe interdisciplinar, agindo com ética e responsabilidade diante das questões pertinentes ao apoio educacional, com domínio do saber-fazer, saber-saber e do saber-conviver",
+        "CargaHoraria": "1.500",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 30,
+        "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
+        "Tipo": "Profuncionário",
+        "Nome": "Secretaria Escolar",
+        "Descricao": "O Técnico em Secretaria Escolar deve evidenciar princípios, conhecimentos e habilidades,\nsaberes e valores que possam credenciá-lo como gestor escolar. Deve também estar apto para atuar nas diversas atividades relacionadas à organização escolar: escrituração, registro e organização escolar, documentação escolar e acadêmica, assessoramento técnico, direção, equipe técnica e docente, atendimento à comunidade escolar no que se refere à vida escolar do aluno e acompanhamento da rotina escolar.",
+        "CargaHoraria": "1.500 horas",
+        "EncontroPresencial:": "Uma vez por semana você irá ao Polo de Apoio Presencial e a Distância para interagir com seus colegas de turmas ou participar de atividades de aprendizagem ou avaliativas.",
+        "Duracao": "2 anos"
+    },
+
+    {
+        "Id": 31,
+        "Modalidade": "",
+        "Nome": "",
+        "Descricao": "",
+        "CargaHoraria": "",
+        "Turno": "",
+        "Duracao": "",
+        "Vagas": "x",
+        "Coordenador": "",
+        "E-mail": ""
+    }
+]
+}
+

@@ -1,0 +1,538 @@
+{
+  "Glossario": [
+    {
+      "id": 1,
+      "Siglas": "DG",
+      "Nome": "Diretoria-Geral",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 2,
+      "Siglas": "CG",
+      "Nome": "Conselho Gestor",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 3,
+      "Siglas": "CGCB",
+      "Nome": "Chefia de Gabinete",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 4,
+      "Siglas": "ASAC",
+      "Nome": "Assistente da Chefia de Gabinete",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 5,
+      "Siglas": "CPAR",
+      "Nome": "Coordenação de Protocolo e Arquivo",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 6,
+      "Siglas": "CDCS",
+      "Nome": "Coordenação de Comunicação Social",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 7,
+      "Siglas": "ASDG",
+      "Nome": "Assessoria da Direção-Geral",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 8,
+      "Siglas": "ASIP",
+      "Nome": "Assessoria para Implantação de Projetos Especiais",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 9,
+      "Siglas": "CDRI",
+      "Nome": "Coordenação de Relações Institucionais",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 10,
+      "Siglas": "DREN",
+      "Nome": "Diretoria de Ensino",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 11,
+      "Siglas": "DPIE",
+      "Nome": "Diretoria de Pós-Graduação, Pesquisa, Inovação e Extensão",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 12,
+      "Siglas": "DRAP",
+      "Nome": "Diretoria de Administração e Planejamento",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 13,
+      "Siglas": "NAPNE",
+      "Nome": "Núcleo de Apoio a Pessoas com Necessidades Educacionais Específicas",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 14,
+      "Siglas": "CDEX",
+      "Nome": "Coordenação de Extensão",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 15,
+      "Siglas": "CDPI",
+      "Nome": "Coordenação de PósGraduação, Pesquisa e Inovação",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 16,
+      "Siglas": "CDSC",
+      "Nome": "Coord. de Sustentabilidade, Cultura, Gênero, Raça e Estudos Afro-brasileiros",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 17,
+      "Siglas": "CGGP",
+      "Nome": "Coordenação-Geral de Gestão de Pessoas",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 18,
+      "Siglas": "CGPE",
+      "Nome": "Coordenação-Geral de Planejamento e de Execução Orçamentária e Financeira",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 19,
+      "Siglas": "CGAE",
+      "Nome": "Coordenação-Geral de Assuntos Estudantis",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 20,
+      "Siglas": "CGBI",
+      "Nome": "Coordenação-Geral de Biblioteca",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 21,
+      "Siglas": "CGEN",
+      "Nome": "Coordenação-Geral de Ensino",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 22,
+      "Siglas": "CGRA",
+      "Nome": "Coordenação-Geral de Registro Acadêmico",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 23,
+      "Siglas": "CDES",
+      "Nome": "Coordenação de Estágio",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 24,
+      "Siglas": "CDPS",
+      "Nome": "Coordenação de Projeto e Atividades Estudantis",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 25,
+      "Siglas": "CDSS",
+      "Nome": "Coor. de Apoio Pedagógico aos Cursos Técnicos Subsequentes e Superiores",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 26,
+      "Siglas": "CDMI",
+      "Nome": "Coor. de Apoio Pedagógico aos Cursos Técnicos Integrados ao Ensino Médio",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 27,
+      "Siglas": "CDCC",
+      "Nome": "Coordenações de Cursos",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 28,
+      "Siglas": "CINC",
+      "Nome": "Coordenação de Inclusão",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 29,
+      "Siglas": "CDEA",
+      "Nome": "Coordenação de Escrituração Acadêmica",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 30,
+      "Siglas": "CDIA",
+      "Nome": "Coordenação de Processos de ingresso e Arquivo",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 31,
+      "Siglas": "CDDQ",
+      "Nome": "Coordenação de Desenvolvinto de Pessoas e Qualidade de Vida",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 32,
+      "Siglas": "CDRT",
+      "Nome": "Coordenação de Relações de Trabalho",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 33,
+      "Siglas": "CDAL",
+      "Nome": "Coordenação de Almoxarifado",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 34,
+      "Siglas": "CDCT",
+      "Nome": "Coordenação de Contabilidade",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 35,
+      "Siglas": "CDEF",
+      "Nome": "Coordenação de Execução Financeira",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 36,
+      "Siglas": "CDMS",
+      "Nome": "Coordenação de Manutenção e Serviços",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 37,
+      "Siglas": "CDTI",
+      "Nome": "Coordenação de Tecnologia da Informação",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 38,
+      "Siglas": "CDAQ",
+      "Nome": "Coordenação de Aquisições",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 39,
+      "Siglas": "CONT",
+      "Nome": "Coordenação de Contratos",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 40,
+      "Siglas": "CDLI",
+      "Nome": "Coordenação de Licitações",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    },
+
+    {
+      "id": 41,
+      "Siglas": "CDPT",
+      "Nome": "Coordenação de Patrimônio",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+      
+    }
+
+  ]
+ 
+}
