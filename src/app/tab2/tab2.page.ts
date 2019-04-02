@@ -28,8 +28,8 @@ export class Tab2Page {
   }
 
   cursoClicado(cursoid: number){
-    this.navCtrl.navigateForward('/detalhes'); // http://localhost:3000/Cursos/' + cursoid 
-    // alert("Curso clicado: " + cursoid);
+    // this.navCtrl.navigateForward('/detalhes'); // http://localhost:3000/Cursos/' + cursoid 
+    alert("Id clicado: " + cursoid);
   }
 
 }
