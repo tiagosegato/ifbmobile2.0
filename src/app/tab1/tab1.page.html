@@ -1,20 +1,87 @@
 <ion-header>
   <ion-toolbar>
+      <!-- <ion-button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </ion-button> -->
+        <ion-buttons slot="end">
+          <button (click)="irParaPerfil()">
+            <ion-icon name="ios-contact"></ion-icon>
+          </button>
+        </ion-buttons>
     <ion-title>
       IFB Mobile 2.0
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <ion-card class="welcome-card">
-      <ion-img src="/assets/logoIFB.png"></ion-img>
-      <ion-card-header>
-        <ion-card-subtitle>Nova versão </ion-card-subtitle>
-        <ion-card-title>IFB Mobile 2.0</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Nova versão do app agora com Ionc 4.</p>
-      </ion-card-content>
-    </ion-card>
+<ion-content padding>
+  <h1> Campus Brasília</h1>
+
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/logoIFB.png"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>Nova versão </ion-card-subtitle>
+      <ion-card-title>IFB Mobile 2.0</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Nova versão do app agora com Ionc 4.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <h2>
+        <strong>
+          Convocação de professor substituto <br> de História
+        </strong>
+      </h2>
+      <p>26/02/19</p>
+      <p> 80:00</p>
+    </ion-item>
+    <img src="assets/imgs/convocacao.jpg">
+    <ion-card-content>
+      <p>O Campus Brasília divulgou, nesta quarta-feira (20), a
+        convocação 01/2019, referente à contratação de professor
+        substituto de História, conforme Edital nº 32/2017 – CBRA/RIFB.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <h2>
+        <strong>
+          Aula Magna marca início de semestre <br> letivo de mestrado profissional
+        </strong>
+      </h2>
+      <p>26/02/19</p>
+      <p> 80:00</p>
+    </ion-item>
+    <img src="assets/imgs/profeptcor.jpg">
+    <ion-card-content>
+      <p>Alunos do Mestrado Profissional em Rede em Educação Profissional
+        e Tecnológica (ProfEPT), que tem como um dos polos o Campus Brasília
+        do Instituto Federal de Brasília (IFB), participam da aula magna, que
+        dá início ao semestre letivo do curso de pós-graduação no IFB,
+        nesta quinta-feira (21)....</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <h2>
+        <strong>
+          Primeiro Encontro Escola/Família é <br> realizado neste sábado no Campus Brasília
+        </strong>
+      </h2>
+      <p>15/02/19</p>
+      <p> 80:00</p>
+    </ion-item>
+    <img src="assets/imgs/importante.png">
+    <ion-card-content>
+      <p>O Campus Brasília do Instituto Federal de Brasília (IFB)
+        realizará, na manhã deste sábado, dia 16 de fevereiro, o
+        1ºEncontro Família/Escola de 2019. O evento acontece no auditório...</p>
+    </ion-card-content>
+
+  </ion-card>
 </ion-content>

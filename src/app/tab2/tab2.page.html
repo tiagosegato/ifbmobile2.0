@@ -1,9 +1,23 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-        Cursos
+      Cursos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content padding>
+  <!-- título da página -->
+  <h2><b>Conheça os Cursos do IFB campus Brasília:</b></h2>
+  <ion-list>
+
+    <!-- criado array pra exibir cursos, sem repetir vários itens ->> curso.id -->
+    <ion-item *ngFor="let curso of cursos" (click)="cursoClicado(curso.id)">  
+
+      {{ curso.Nome }}
+
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

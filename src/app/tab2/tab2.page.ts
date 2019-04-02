@@ -1,8 +1,35 @@
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
-export class Tab2Page {}
+export class Tab2Page {
+
+  public cursos: any;
+
+  constructor(
+    private navCtrl: NavController,
+    private http: HttpClient
+  ){
+    this.loadData();
+  }
+
+  loadData(){
+    let data: Observable<any>;
+    data = this.http.get('http://localhost:3000/Cursos');
+    data.subscribe(result => {
+      this.cursos = result;
+    });
+  }
+
+  cursoClicado(cursoid: number){
+    this.navCtrl.navigateForward('/detalhes'); // http://localhost:3000/Cursos/' + cursoid 
+    // alert("Curso clicado: " + cursoid);
+  }
+
+}
