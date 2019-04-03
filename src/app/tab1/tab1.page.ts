@@ -13,6 +13,6 @@ export class Tab1Page {
   ){ }
   
   irParaPerfil(){
-    this.navCtrl.navigateForward('/tabs/tab1');
+    this.navCtrl.navigateForward('/tabs/perfil');
   }
 }
