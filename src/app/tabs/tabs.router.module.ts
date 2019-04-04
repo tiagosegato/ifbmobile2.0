@@ -61,6 +61,15 @@ const routes: Routes = [
           }
         ]
       },
+      {
+        path: 'conecta',
+        children: [
+          {
+            path: '',
+            loadChildren: '../conecta/conecta.module#ConectaPageModule'
+          }
+        ]
+      },
       
       {
         path: '',
