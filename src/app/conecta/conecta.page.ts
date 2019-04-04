@@ -15,6 +15,6 @@ export class ConectaPage implements OnInit {
   ngOnInit() {
   }
   irParaInfoConecta(){
-    this.navCtrl.navigateForward('/tabs/info-conecta');
+    this.navCtrl.navigateForward('/info-conecta');
   }
 }
