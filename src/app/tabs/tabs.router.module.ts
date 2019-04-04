@@ -35,11 +35,11 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'noticias',
+        path: 'eventos',
         children: [
           {
             path: '',
-            loadChildren: '../noticias/noticias.module#NoticiasPageModule'
+            loadChildren: '../eventos/eventos.module#EventosPageModule'
           }
         ]
       },
@@ -49,6 +49,15 @@ const routes: Routes = [
           {
             path: '',
             loadChildren: '../ajuda/ajuda.module#AjudaPageModule'
+          }
+        ]
+      },
+      {
+        path: 'perfil',
+        children: [
+          {
+            path: '',
+            loadChildren: '../perfil/perfil.module#PerfilPageModule'
           }
         ]
       },

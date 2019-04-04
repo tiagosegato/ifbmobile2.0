@@ -1,7 +1,7 @@
 {
 "Cursos":[
     {
-        "Id": 1,
+        "id": 1,
         "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
         "Nome": "Técnico em Eventos",
         "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias. \n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação. Executa procedimentos de recepção e encaminhamentos demandados por eventos. \n Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
@@ -190,7 +190,7 @@
     },
 
     {
-        "Id": 17,
+        "id": 17,
         "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
         "Tipo": "Subsequentes",
         "Nome": "Hospedagem",
@@ -200,7 +200,7 @@
     },
 
     {
-        "Id": 18,
+        "id": 18,
         "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
         "Tipo": "Subsequentes",
         "Nome": "Informática",
@@ -210,7 +210,7 @@
     },
 
     {
-        "Id": 19,
+        "id": 19,
         "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
         "Tipo": "Subsequentes",
         "Nome": "Programador de Jogos Digitais",
@@ -220,7 +220,7 @@
     },
 
     {
-        "Id": 20,
+        "id": 20,
         "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
         "Tipo": "FIC",
         "Nome": "Operador de Gravação e Edição de Áudio",
@@ -229,7 +229,7 @@
     },
 
     {
-        "Id": 21,
+        "id": 21,
         "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
         "Tipo": "FIC",
         "Nome": "Operador de Câmera",
@@ -238,7 +238,7 @@
     },
 
     {
-        "Id": 22,
+        "id": 22,
         "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
         "Tipo": "FIC",
         "Nome": "Programador de Sistemas",
@@ -248,7 +248,7 @@
     },
 
     {
-        "Id": 23,
+        "id": 23,
         "Modalidade": "Educação à Distância em Concomitância com o Ensino Médio",
         "Tipo": "Mediotec",
         "Nome": "Informática",
@@ -259,7 +259,7 @@
     },
 
     {
-        "Id": 24,
+        "id": 24,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "E-Tec",
         "Nome": "Administração",
@@ -270,7 +270,7 @@
     },
 
     {
-        "Id": 25,
+        "id": 25,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "E-Tec",
         "Nome": "Logística",
@@ -281,7 +281,7 @@
     },
 
     {
-        "Id": 26,
+        "id": 26,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "E-Tec",
         "Nome": "Meio Ambiente",
@@ -292,7 +292,7 @@
     },
 
     {
-        "Id": 27,
+        "id": 27,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "E-Tec",
         "Nome": "Segurança do Trabalho",
@@ -303,7 +303,7 @@
     },
 
     {
-        "Id": 28,
+        "id": 28,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "E-Tec",
         "Nome": "Serviços Públicos",
@@ -314,7 +314,7 @@
     },
 
     {
-        "Id": 29,
+        "id": 29,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "Profuncionário",
         "Nome": "Multimeios Didáticos",
@@ -325,7 +325,7 @@
     },
 
     {
-        "Id": 30,
+        "id": 30,
         "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
         "Tipo": "Profuncionário",
         "Nome": "Secretaria Escolar",
@@ -336,7 +336,7 @@
     },
 
     {
-        "Id": 31,
+        "id": 31,
         "Modalidade": "",
         "Nome": "",
         "Descricao": "",
