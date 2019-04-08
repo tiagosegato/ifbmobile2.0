@@ -61,16 +61,7 @@ const routes: Routes = [
           }
         ]
       },
-      {
-        path: 'conecta',
-        children: [
-          {
-            path: '',
-            loadChildren: '../conecta/conecta.module#ConectaPageModule'
-          }
-        ]
-      },
-      
+ 
       {
         path: '',
         redirectTo: '/tabs/tab1',

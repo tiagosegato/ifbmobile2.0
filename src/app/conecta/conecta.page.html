@@ -9,7 +9,7 @@
 
         <ion-item>
           <ion-label>E-mail</ion-label>
-          <ion-input type="" value="" placeholder="E-mail"></ion-input>
+          <ion-input type="email" value="" placeholder="E-mail"></ion-input>
         </ion-item>
     
         <ion-item>
@@ -20,7 +20,9 @@
       </ion-list>
     
       <div padding>
-        <button ion-button color="primary" block (click)="irParaInfoConecta()">Login</button>
+        <ion-button color="dark" expand="block" fill="outline" routerLink="/info-conecta"><ion-icon name="exit"></ion-icon>Login</ion-button>
+        <ion-button color="light" size="small" slot="start" block>Cadastrar</ion-button>
+        <ion-button color="light" size="small" slot="end" block>Esqueci a senha</ion-button>
       </div>
 
 </ion-content>

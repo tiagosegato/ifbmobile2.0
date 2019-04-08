@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-conecta',
@@ -8,13 +7,11 @@ import { NavController } from '@ionic/angular';
 })
 export class ConectaPage implements OnInit {
 
-  constructor(  
-     private navCtrl: NavController
-    ) { }
+  constructor(      ) { }
 
   ngOnInit() {
   }
-  irParaInfoConecta(){
-    this.navCtrl.navigateForward('/info-conecta');
-  }
 }
+/*
+https://www.youtube.com/watch?v=4Li_FDCGi7E sideMenu +tabs. watch later
+*/

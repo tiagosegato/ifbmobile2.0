@@ -11,8 +11,5 @@ export class Tab1Page {
   constructor(
     private navCtrl: NavController
   ){ }
-  
-  irParaPerfil(){
-    this.navCtrl.navigateForward('/tabs/perfil');
-  }
+
 }

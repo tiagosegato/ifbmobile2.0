@@ -13,8 +13,4 @@ export class EventosPage implements OnInit {
 
   ngOnInit() {
   }
-  irParaConecta(){
-    this.navCtrl.navigateForward('/tabs/conecta');
-  }
-
 }
