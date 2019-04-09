@@ -4,8 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'ajuda', loadChildren: './ajuda/ajuda.module#AjudaPageModule' },
-  { path: 'eventos', loadChildren: './eventos/eventos.module#EventosPageModule' },  { path: 'detalhes', loadChildren: './detalhes/detalhes.module#DetalhesPageModule' },
+  { path: 'eventos', loadChildren: './eventos/eventos.module#EventosPageModule' },
+  { path: 'detalhes', loadChildren: './detalhes/detalhes.module#DetalhesPageModule' },
   { path: 'perfil', loadChildren: './perfil/perfil.module#PerfilPageModule' },
+  { path: 'conecta', loadChildren: './conecta/conecta.module#ConectaPageModule' },
+  { path: 'info-conecta', loadChildren: './conecta/info-conecta/info-conecta.module#InfoConectaPageModule' },
 
 
 ];

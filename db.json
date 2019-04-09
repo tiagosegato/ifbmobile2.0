@@ -1,7 +1,7 @@
 {
   "Cursos": [
     {
-      "Id": 1,
+      "id": 1,
       "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
       "Nome": "Técnico em Eventos",
       "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias. \n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação. Executa procedimentos de recepção e encaminhamentos demandados por eventos. \n Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
@@ -9,7 +9,7 @@
       "Duracao": "3 anos"
     },
     {
-      "Id": 2,
+      "id": 2,
       "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
       "Nome": "Técnico em Informática",
       "Descricao": "Instala sistemas operacionais, aplicativos e periféricos para desktop e servidores. \n Desenvolve e documenta aplicações para desktop com acesso a web e a banco de dados. Realiza manutenção de computadores de uso geral.\n Instala e configura redes de computadores locais de pequeno porte.",
@@ -17,7 +17,7 @@
       "Duracao": "3 anos"
     },
     {
-      "Id": 3,
+      "id": 3,
       "Modalidade": "Cursos Técnicos Subsequentes",
       "Nome": "Técnico em Comércio",
       "Descricao": "Aplica métodos de comercialização de bens e serviços. Efetua controle quantitativo e qualitativo de produtos. \nCoordena a armazenagem no estabelecimento comercial. Elabora planilha de custos. \n Verifica a demanda e comunica previsões aos fornecedores. Operacionaliza planos de marketing e comunicação, logística, recursos humanos e comercialização.",
@@ -28,7 +28,7 @@
       "Coordenador": "Neli Terezinha da Silva"
     },
     {
-      "Id": 4,
+      "id": 4,
       "Modalidade": "Cursos Técnicos Subsequentes",
       "Nome": "Técnico em Eventos",
       "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias.\n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação.\n Executa procedimentos de recepção e encaminhamentos demandados por eventos. Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
@@ -39,7 +39,7 @@
       "Coordenador": "Raquel Laje Tuma"
     },
     {
-      "Id": 5,
+      "id": 5,
       "Modalidade": "Cursos Técnicos Subsequentes",
       "Nome": "Técnico em Informática: Desenvolvimento de Sistemas",
       "Descricao": "Desenvolve sistemas computacionais utilizando ambiente de desenvolvimento. Modela, implementa e mantém banco de dados.\n Utiliza linguagem de programação específica. Realiza testes de programas de computador.\n Mantém registros para análise e refinamento de resultados. Elabora documentação do sistema. Aplica princípios e definição de análise de dados. Executa manutenção de programas de computador.",
@@ -50,7 +50,7 @@
       "Coordenador": "Marco Rogério Calheira Lima"
     },
     {
-      "Id": 6,
+      "id": 6,
       "Modalidade": "Cursos Técnicos Subsequentes",
       "Nome": "Técnico em Serviços Públicos",
       "Descricao": "Realiza atendimento ao público. Realiza apoio administrativo e de gestão de pessoas. \n Controla procedimentos organizacionais. Organiza materiais. Executa as operações decorrentes de programas e projetos de políticas públicas.",
@@ -60,7 +60,7 @@
       "Vagas": 44
     },
     {
-      "Id": 7,
+      "id": 7,
       "Modalidade": "Cursos Superiores - Graduação",
       "Tipo": "LICENCIATURA: Esses cursos são indicados para quem quer se tornar professor e ministrar aulas.",
       "Nome": "Licenciatura em Dança",
@@ -73,7 +73,7 @@
       "E-mail": "fauzi.mansur@ifb.edu.br"
     },
     {
-      "Id": 8,
+      "id": 8,
       "Modalidade": "Cursos Superiores - Graduação",
       "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
       "Nome": "Tecnologia em Eventos",
@@ -85,7 +85,7 @@
       "Coordenador": "Rafaela Caetano Pinto"
     },
     {
-      "Id": 9,
+      "id": 9,
       "Modalidade": "Cursos Superiores - Graduação",
       "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
       "Nome": "Tecnologia em Gestão Pública",
@@ -97,7 +97,7 @@
       "Coordenador": "Maria Marclane Bezerra"
     },
     {
-      "Id": 10,
+      "id": 10,
       "Modalidade": "Cursos Superiores - Graduação",
       "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
       "Nome": "Tecnologia em Processos Gerenciais",
@@ -110,7 +110,7 @@
       "E-mail": "luciano.silva@ifb.edu.br"
     },
     {
-      "Id": 11,
+      "id": 11,
       "Modalidade": "Cursos Superiores - Graduação",
       "Tipo": "TECNOLOGIA: Esses cursos oferecem uma formação especializada nas áreas científicas e tecnológicas e, geralmente, duram menos tempo.",
       "Nome": "Tecnologia em Sistemas para Internet",
@@ -122,7 +122,7 @@
       "Coordenador": "Marcelo Machado Feres"
     },
     {
-      "Id": 12,
+      "id": 12,
       "Modalidade": "Curso Superiores - Especialização e Mestrado",
       "Nome": "Especialização em Gestão Pública: Governança e Políticas Públicas",
       "Descricao": "Curso Lato Sensu da área de Administração em Ciências Sociais Aplicadas com o objetivo de capacitar pessoas de nível superior para atuarem de maneira eficaz, eficiente e efetiva no planejamento,   execução e avaliação de políticas públicas, seguindo os princípios da governança do setor público.",
@@ -132,7 +132,7 @@
       "Vagas": 45
     },
     {
-      "Id": 13,
+      "id": 13,
       "Modalidade": "Curso Superiores - Especialização e Mestrado",
       "Nome": "Mestrado Profissional em Educação Profissional e Tecnológica em Rede Nacional ",
       "Descricao": "Mestrado profissional semipresencial em Educação Profissional e Tecnológica em rede nacional, da área de Ensino, com o objetivo de proporcionar formação em educação profissional e tecnológica, visando tanto à produção de conhecimento como o desenvolvimento de produtos.",
@@ -145,7 +145,7 @@
       "E-mail": "simone.gontijo@ifb.edu.br"
     },
     {
-      "Id": 14,
+      "id": 14,
       "Modalidade": "Cursos de Formação Inicial e Continuada (FIC)",
       "Nome": "FIC em Auxiliar de Marketing",
       "Descricao": "Desenvolver as habilidades de observar e analisar o comportamento de consumidores, de forma a construir ações de mercado favoráveis às metas da empresa.",
@@ -155,7 +155,7 @@
       "Vagas": 80
     },
     {
-      "Id": 15,
+      "id": 15,
       "Modalidade": "Cursos de Formação Inicial e Continuada (FIC)",
       "Nome": "FIC em Espanhol",
       "Descricao": "Curso completo para aprendizado do idioma e particularidades do Espanhol.",
@@ -165,7 +165,7 @@
       "Vagas": 25
     },
     {
-      "Id": 16,
+      "id": 16,
       "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
       "Tipo": "Subsequentes",
       "Nome": "Eventos",
@@ -174,7 +174,7 @@
       "Duracao": "3 semestres "
     },
     {
-      "Id": 17,
+      "id": 17,
       "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
       "Tipo": "Subsequentes",
       "Nome": "Hospedagem",
@@ -183,7 +183,7 @@
       "Duracao": "3 semestres"
     },
     {
-      "Id": 18,
+      "id": 18,
       "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
       "Tipo": "Subsequentes",
       "Nome": "Informática",
@@ -192,7 +192,7 @@
       "Duracao": "3 semestres (1 ano e meio)"
     },
     {
-      "Id": 19,
+      "id": 19,
       "Modalidade": "Educação à Distância Subsequente ao Ensino Médio, com encontros presenciais pré-agendados.",
       "Tipo": "Subsequentes",
       "Nome": "Programador de Jogos Digitais",
@@ -201,7 +201,7 @@
       "Duracao": "4 semestres (2 anos)"
     },
     {
-      "Id": 20,
+      "id": 20,
       "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
       "Tipo": "FIC",
       "Nome": "Operador de Gravação e Edição de Áudio",
@@ -209,7 +209,7 @@
       "CargaHoraria": "400h"
     },
     {
-      "Id": 21,
+      "id": 21,
       "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
       "Tipo": "FIC",
       "Nome": "Operador de Câmera",
@@ -217,7 +217,7 @@
       "CargaHoraria": "400h"
     },
     {
-      "Id": 22,
+      "id": 22,
       "Modalidade": "Educação à Distância, com encontros presenciais pré-agendados.",
       "Tipo": "FIC",
       "Nome": "Programador de Sistemas",
@@ -226,7 +226,7 @@
       "Duracao": "6 meses"
     },
     {
-      "Id": 23,
+      "id": 23,
       "Modalidade": "Educação à Distância em Concomitância com o Ensino Médio",
       "Tipo": "Mediotec",
       "Nome": "Informática",
@@ -236,7 +236,7 @@
       "Duracao": "3 semestres (1 ano e meio)"
     },
     {
-      "Id": 24,
+      "id": 24,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "E-Tec",
       "Nome": "Administração",
@@ -246,7 +246,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 25,
+      "id": 25,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "E-Tec",
       "Nome": "Logística",
@@ -256,7 +256,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 26,
+      "id": 26,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "E-Tec",
       "Nome": "Meio Ambiente",
@@ -266,7 +266,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 27,
+      "id": 27,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "E-Tec",
       "Nome": "Segurança do Trabalho",
@@ -276,7 +276,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 28,
+      "id": 28,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "E-Tec",
       "Nome": "Serviços Públicos",
@@ -286,7 +286,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 29,
+      "id": 29,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "Profuncionário",
       "Nome": "Multimeios Didáticos",
@@ -296,7 +296,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 30,
+      "id": 30,
       "Modalidade": "Educação à Distância - Aprender a distância é ter tempo e espaço flexibilizados, além de poder utilizar computador conectado à Internet.",
       "Tipo": "Profuncionário",
       "Nome": "Secretaria Escolar",
@@ -306,7 +306,7 @@
       "Duracao": "2 anos"
     },
     {
-      "Id": 31,
+      "id": 31,
       "Modalidade": "",
       "Nome": "",
       "Descricao": "",

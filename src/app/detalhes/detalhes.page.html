@@ -8,7 +8,10 @@
 </ion-header>
 
 <ion-content padding>
-
-  <p> Detalhes do curso... </p> 
-
+<ion-list>
+  <ion-item *ngFor="let curso of cursos"> 
+  {{ curso.Nome }}
+  {{ curso.Modalidade}}
+  </ion-item>
+</ion-list>
 </ion-content>

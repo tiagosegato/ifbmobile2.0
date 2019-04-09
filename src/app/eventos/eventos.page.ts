@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-eventos',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventosPage implements OnInit {
 
-  constructor() { }
+  constructor(  private navCtrl: NavController
+) { }
 
   ngOnInit() {
   }
-
 }
