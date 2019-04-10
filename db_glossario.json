@@ -2,6 +2,19 @@
   "Glossario": [
     {
       "id": 1,
+      "Siglas": "ASAC",
+      "Nome": "Assistente da Chefia de Gabinete",
+      "Telefone": "xxxx-xxxx",
+      "Sala":"xxx",
+      "Bloco":"xxx",
+      "Responsável":"xxx",
+      "Horário":"xxx",
+      "Email":"xxx"
+
+    },
+
+    {
+      "id": 51,
       "Siglas": "DG",
       "Nome": "Diretoria-Geral",
       "Telefone": "xxxx-xxxx",
@@ -37,19 +50,6 @@
       "Horário":"xxx",
       "Email":"xxx"
       
-    },
-
-    {
-      "id": 4,
-      "Siglas": "ASAC",
-      "Nome": "Assistente da Chefia de Gabinete",
-      "Telefone": "xxxx-xxxx",
-      "Sala":"xxx",
-      "Bloco":"xxx",
-      "Responsável":"xxx",
-      "Horário":"xxx",
-      "Email":"xxx"
-
     },
 
     {

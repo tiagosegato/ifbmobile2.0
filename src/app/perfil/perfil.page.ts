@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
+import { ValueAccessor } from '@ionic/angular/dist/directives/control-value-accessors/value-accessor';
 
 @Component({
   selector: 'app-perfil',
@@ -15,7 +16,8 @@ export class PerfilPage implements OnInit {
 
   ngOnInit() {
   }
+  
   login(){
-    this.navCtrl.navigateForward('/tabs/tab1');
+    this.navCtrl.navigateForward('/perfil-logado');
   }
 }

@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'detalhes', loadChildren: './detalhes/detalhes.module#DetalhesPageModule' },
   { path: 'perfil', loadChildren: './perfil/perfil.module#PerfilPageModule' },
   { path: 'conecta', loadChildren: './conecta/conecta.module#ConectaPageModule' },
-  { path: 'info-conecta', loadChildren: './conecta/info-conecta/info-conecta.module#InfoConectaPageModule' },
+  { path: 'info-conecta', loadChildren: './conecta/info-conecta/info-conecta.module#InfoConectaPageModule' },  { path: 'perfil-logado', loadChildren: './perfil-logado/perfil-logado.module#PerfilLogadoPageModule' },
+
 
 
 ];
