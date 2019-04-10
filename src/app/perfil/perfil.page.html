@@ -1,28 +1,50 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Perfil</ion-title>
+    <ion-title> Perfil </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-list inset>
+  <ion-list inset>
 
-        <ion-item>
-          <ion-label>CPF</ion-label>
-          <ion-input type="text" value="" placeholder="000.000.000-00"></ion-input>
-        </ion-item>
-    
-        <ion-item>
-          <ion-label>Senha</ion-label>
-          <ion-input type="password" value=""></ion-input>
-        </ion-item>
-    
-      </ion-list>
-    
-      <div padding>
-        <ion-button color="success" expand="block" fill="outline"><ion-icon name="exit"></ion-icon>Entrar</ion-button>
-        <a href="#" text-align="right" >Primeiro acesso</a>
-        <a href="#" text-align="left">Esqueci a senha</a>
-      </div>
+    <ion-item>
+      <ion-label>CPF</ion-label>
+      <ion-input type="text" value="" placeholder="000.000.000-00"></ion-input>
+    </ion-item>
 
+    <ion-item>
+      <ion-label>Senha</ion-label>
+      <ion-input type="password" value=""></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <ion-button color="success" expand="block" (click)="login()">
+      Login
+    </ion-button>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col> </ion-col>
+        <ion-col>
+          <ion-button color="success" small fill="outline" routerLink="#">
+            Primeiro Acesso
+          </ion-button>
+        </ion-col>
+        <ion-col> </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col> </ion-col>
+        <ion-col>
+          <ion-button color="success" small fill="outline" routerLink="#">
+            Esqueci a senha
+          </ion-button>
+        </ion-col>
+        <ion-col> </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
 </ion-content>
