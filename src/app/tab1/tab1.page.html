@@ -1,5 +1,12 @@
 <ion-header>
   <ion-toolbar>
+
+      <ion-buttons slot="start"> <!-- Botão do menu -->
+          <ion-button (click)="toggleMenu()">
+            <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+
       <!-- <ion-button ion-button icon-only menuToggle>
           <ion-icon name="menu"></ion-icon>
         </ion-button> -->
