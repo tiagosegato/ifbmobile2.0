@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'tab2', loadChildren: './tab2/tab2.module#Tab2PageModule' },
   { path: 'publico', loadChildren: './ajuda/publico/publico.module#PublicoPageModule' },
   { path: 'entrar', loadChildren: './ajuda/entrar/entrar.module#EntrarPageModule' },
-  { path: 'slides-boas-vindas', loadChildren: './slides-boas-vindas/slides-boas-vindas.module#SlidesBoasVindasPageModule' },
+  { path: 'slides-boas-vindas', loadChildren: './slides-boas-vindas/slides-boas-vindas.module#SlidesBoasVindasPageModule' },  { path: 'mapa', loadChildren: './ajuda/mapa/mapa.module#MapaPageModule' },
+
 
 
 
