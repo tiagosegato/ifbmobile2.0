@@ -1,32 +1,36 @@
+import { Curso } from './../interfaces/curso';
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-
+import { Subscription } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { CursoService } from '../services/curso.service';
 
 @Component({
   selector: 'app-detalhes',
   templateUrl: './detalhes.page.html',
   styleUrls: ['./detalhes.page.scss'],
 })
-export class DetalhesPage implements OnInit {
-  cursos:any;
-  cursoid:number;
+
+export class DetalhesPage implements OnInit { 
+  private curso: Curso = {};
+  private cursoId: string = null;
+  private cursoSubscription: Subscription;
+
   constructor(
-    private navCtrl: NavController,
-    private http: HttpClient
+    private activeRoute: ActivatedRoute,
+    private cursoService: CursoService
   ){
-    this.loadData();
+    this.cursoId = this.activeRoute.snapshot.params['id'];
+    if (this.cursoId) this.loadCurso();
   }
 
-  loadData(){
-    let data: Observable<any>;
-    data = this.http.get('http://localhost:3000/Cursos'+this.cursoid);
-    data.subscribe(result => {
-      this.cursos = result;
+  loadCurso(){
+    this.cursoSubscription = this.cursoService.getCurso(this.cursoId).subscribe(data => {
+      this.curso = data;
     });
   }
-  ngOnInit() {
-  }
+
+  ngOnDestroy(){ if (this.cursoSubscription) this.cursoSubscription.unsubscribe(); }
+
+  ngOnInit() { }
 
 }

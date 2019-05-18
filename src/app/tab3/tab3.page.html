@@ -8,15 +8,13 @@
 
 <ion-content padding>
   <h2><b> Conheça as siglas do IFB:</b></h2> 
-   <ion-searchbar animated></ion-searchbar>
+   <!-- <ion-searchbar animated></ion-searchbar> -->
+
   <ion-list>
-
-    <ion-item *ngFor="let Glossario of glossario">
-
-      {{Glossario.Siglas}} - {{ Glossario.Nome }}
-
+    <!-- criado array pra exibir siglas, sem repetir vários itens -->
+    <ion-item *ngFor="let Glossario of glossario" button [routerLink]="['/detalhes-glossario', Glossario.id]">
+      {{Glossario.sigla}}
     </ion-item>
-
   </ion-list>
 
 </ion-content>

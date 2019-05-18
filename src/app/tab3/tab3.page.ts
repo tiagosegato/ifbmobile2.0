@@ -1,7 +1,7 @@
-import { HttpClient } from '@angular/common/http';
+import { GlossarioService } from './../services/glossario.service';
+import { Glossario } from './../interfaces/glossario';
 import { Component } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { Observable } from 'rxjs';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-tab3',
@@ -9,22 +9,16 @@ import { Observable } from 'rxjs';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-
-  public glossario: any;
+  private glossario = new Array<Glossario>();
+  private glossariosSubscription: Subscription;
 
   constructor(
-    private navCtrl: NavController,
-    private http: HttpClient
-  ){
-    this.loadData();
-  }
-
-  loadData(){
-    let data: Observable<any>;
-    data = this.http.get('http://localhost:3000/Glossario');
-    data.subscribe(result => {
-      this.glossario = result;
+    private glossarioService: GlossarioService ){
+    this.glossariosSubscription = this.glossarioService.getGlossarios().subscribe(data => {
+      this.glossario = data; 
     });
   }
+
+  ngOnDestroy(){ this.glossariosSubscription.unsubscribe(); }
 
 }

@@ -1,7 +1,7 @@
+import { CursoService } from './../services/curso.service';
+import { Curso } from './../interfaces/curso';
 import { Component } from '@angular/core';
-import { NavController } from '@ionic/angular';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-tab2',
@@ -9,27 +9,16 @@ import { Observable } from 'rxjs';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
-  public cursos: any;
+  private cursos = new Array<Curso>();
+  private cursosSubscription: Subscription;
 
   constructor(
-    private navCtrl: NavController,
-    private http: HttpClient
-  ){
-    this.loadData();
-  }
-
-  loadData(){
-    let data: Observable<any>;
-    data = this.http.get('http://localhost:3000/Cursos');
-    data.subscribe(result => {
-      this.cursos = result;
+    private cursoService: CursoService ){
+    this.cursosSubscription = this.cursoService.getCursos().subscribe(data => {
+      this.cursos = data; 
     });
   }
 
-  cursoClicado(){
-     this.navCtrl.navigateForward('/detalhes:id'); // http://localhost:3000/Cursos' + cursoid 
-    //alert("Id clicado: " + cursoid);
-  }
+  ngOnDestroy(){ this.cursosSubscription.unsubscribe(); }
 
 }

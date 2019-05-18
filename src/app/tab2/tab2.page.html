@@ -7,17 +7,13 @@
 </ion-header>
 
 <ion-content padding>
-  <!-- título da página -->
   <h2><b>Conheça os Cursos do IFB campus Brasília:</b></h2>
+  <h6>Parei no curso id <b>11</b>:   </h6>
   <ion-list>
-
     <!-- criado array pra exibir cursos, sem repetir vários itens ->> curso.id -->
-    <ion-item *ngFor="let curso of cursos" (click)="cursoClicado(curso.Id)">   
-
-      {{ curso.Nome }}
-
-    </ion-item>
-
+    <ion-item *ngFor="let curso of cursos" button [routerLink]="['/detalhes', curso.id]"> 
+      {{ curso.nome }}
+    </ion-item> 
   </ion-list>
 
 </ion-content>
