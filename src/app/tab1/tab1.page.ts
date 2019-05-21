@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from '@ionic/angular';
+import { NavController, MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -8,8 +8,13 @@ import { NavController } from '@ionic/angular';
 })
 export class Tab1Page {
 
-  constructor(
+  constructor( 
+    private menuCtrl: MenuController,
     private navCtrl: NavController
   ){ }
+
+  toggleMenu(){
+    this.menuCtrl.toggle();
+  }
 
 }

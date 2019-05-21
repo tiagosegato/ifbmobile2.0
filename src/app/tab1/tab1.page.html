@@ -1,5 +1,12 @@
 <ion-header>
   <ion-toolbar>
+
+      <ion-buttons slot="start"> <!-- Botão do menu -->
+          <ion-button (click)="toggleMenu()">
+            <ion-icon slot="icon-only" name="menu"></ion-icon>
+          </ion-button>
+      </ion-buttons>
+
       <!-- <ion-button ion-button icon-only menuToggle>
           <ion-icon name="menu"></ion-icon>
         </ion-button> -->
@@ -11,7 +18,7 @@
 </ion-header>
 
 <ion-content padding>
-  <h1 text-align="center"> IFB- Campus Brasília</h1>
+  <h1 text-align="center"> <b> IFB- Campus Brasília </b></h1>
 
   <ion-card>
     <a href="http://www.ifb.edu.br/brasilia/20295-curso-de-sistemas-para-internet-recebe-nota-maxima-no-inep" target="_blank">

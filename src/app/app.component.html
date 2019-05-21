@@ -1,3 +1,24 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu side="start" 
+            menuId="first"
+            contentId="principal">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title> Menu </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+
+      <ion-list>
+        <ion-item> Conheça mais sobre o IFB </ion-item>
+        <ion-item> Como chegar </ion-item>
+        <ion-item> Redes Sociais </ion-item>
+        <ion-item> Sobre </ion-item>
+      </ion-list>
+
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="principal"></ion-router-outlet>
 </ion-app>

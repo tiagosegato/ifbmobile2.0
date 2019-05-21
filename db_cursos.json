@@ -2,7 +2,7 @@
 "Cursos":[
     {
         "id": 1,
-        "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio",
+        "Modalidade": "Cursos Técnicos Integrados ao Ensino Médio", 
         "Nome": "Técnico em Eventos",
         "Descricao": "Projeta, planeja, organiza, coordena, executa e avalia serviços de apoio técnico e logístico a eventos de diversas classificações e tipologias. \n Utiliza normas de cerimonial e protocolo. Opera as ferramentas de marketing e de divulgação. Executa procedimentos de recepção e encaminhamentos demandados por eventos. \n Coordena a decoração de ambientes e o armazenamento e manuseio de gêneros alimentícios servidos em eventos.",
         "CargaHoraria": "3000 horas",
