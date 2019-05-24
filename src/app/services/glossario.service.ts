@@ -1,7 +1,7 @@
 import { map } from 'rxjs/operators';
 import { Glossario } from './../interfaces/glossario';
-import { AngularFirestore, AngularFirestoreCollection } from 'angularfire2/firestore';
 import { Injectable } from '@angular/core';
+import { AngularFirestoreCollection, AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
   providedIn: 'root'
