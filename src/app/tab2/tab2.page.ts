@@ -9,11 +9,11 @@ import { Subscription } from 'rxjs';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  private cursos = new Array<Curso>();
-  private cursosSubscription: Subscription;
+  public cursos = new Array<Curso>();
+  public cursosSubscription: Subscription;
 
   constructor(
-    private cursoService: CursoService ){
+    public cursoService: CursoService ){
     this.cursosSubscription = this.cursoService.getCursos().subscribe(data => {
       this.cursos = data; 
     });

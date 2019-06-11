@@ -7,9 +7,9 @@ import { AngularFirestoreCollection, AngularFirestore } from '@angular/fire/fire
   providedIn: 'root'
 }) 
 export class CursoService {
-  private cursoCollection: AngularFirestoreCollection<Curso>;
+  public cursoCollection: AngularFirestoreCollection<Curso>;
 
-  constructor(private afs: AngularFirestore) {
+  constructor(public afs: AngularFirestore) {
     this.cursoCollection = this.afs.collection<Curso>('cursos');
   }
 

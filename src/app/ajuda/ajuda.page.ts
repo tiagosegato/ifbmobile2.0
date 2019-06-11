@@ -10,7 +10,7 @@ import { AlertController } from '@ionic/angular';
 export class AjudaPage implements OnInit {
 
   constructor(
-    private alertController: AlertController
+    public alertController: AlertController
   ) { }
 
   ngOnInit() {

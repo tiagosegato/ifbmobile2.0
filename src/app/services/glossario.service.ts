@@ -7,9 +7,9 @@ import { AngularFirestoreCollection, AngularFirestore } from '@angular/fire/fire
   providedIn: 'root'
 })
 export class GlossarioService {
-  private glossarioCollection: AngularFirestoreCollection<Glossario>;
+  public glossarioCollection: AngularFirestoreCollection<Glossario>;
 
-  constructor(private afs: AngularFirestore) {
+  constructor(public afs: AngularFirestore) {
     this.glossarioCollection = this.afs.collection<Glossario>('glossario');
   }
 

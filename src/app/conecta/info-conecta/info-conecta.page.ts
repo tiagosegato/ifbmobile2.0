@@ -9,7 +9,7 @@ import { NavController } from '@ionic/angular';
 export class InfoConectaPage implements OnInit {
 
   constructor(
-    private navCtrl: NavController
+    public navCtrl: NavController
   ) { }
 
   ngOnInit() {

@@ -10,13 +10,13 @@ import { GlossarioService } from '../services/glossario.service';
   styleUrls: ['./detalhes-glossario.page.scss'],
 })
 export class DetalhesGlossarioPage implements OnInit {
-  private glossario: Glossario = {};
-  private glossarioId: string = null;
-  private glossarioSubscription: Subscription;
+  public glossario: Glossario = {};
+  public glossarioId: string = null;
+  public glossarioSubscription: Subscription;
 
   constructor(
-    private activeRoute: ActivatedRoute,
-    private glossarioService: GlossarioService
+    public activeRoute: ActivatedRoute,
+    public glossarioService: GlossarioService
   ){
     this.glossarioId = this.activeRoute.snapshot.params['id'];
     if (this.glossarioId) this.loadGlossario();

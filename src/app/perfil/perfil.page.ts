@@ -11,7 +11,7 @@ export class PerfilPage implements OnInit {
 
 
   constructor(
-   private navCtrl: NavController
+    public navCtrl: NavController
    ) { }
 
   ngOnInit() {

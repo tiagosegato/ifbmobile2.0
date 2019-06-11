@@ -9,8 +9,8 @@ import { NavController, MenuController } from '@ionic/angular';
 export class Tab1Page {
 
   constructor( 
-    private menuCtrl: MenuController,
-    private navCtrl: NavController
+    public menuCtrl: MenuController,
+    public navCtrl: NavController
   ){ }
 
   toggleMenu(){

@@ -8,7 +8,7 @@ import { NavController } from '@ionic/angular';
 })
 export class EventosPage implements OnInit {
 
-  constructor(  private navCtrl: NavController
+  constructor(  public navCtrl: NavController
 ) { }
 
   ngOnInit() {

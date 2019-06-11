@@ -11,13 +11,13 @@ import { CursoService } from '../services/curso.service';
 })
 
 export class DetalhesPage implements OnInit { 
-  private curso: Curso = {};
-  private cursoId: string = null;
-  private cursoSubscription: Subscription;
+  public curso: Curso = {};
+  public cursoId: string = null;
+  public cursoSubscription: Subscription;
 
   constructor(
-    private activeRoute: ActivatedRoute,
-    private cursoService: CursoService
+    public activeRoute: ActivatedRoute,
+    public cursoService: CursoService
   ){
     this.cursoId = this.activeRoute.snapshot.params['id'];
     if (this.cursoId) this.loadCurso();

@@ -9,11 +9,11 @@ import { Subscription } from 'rxjs';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-  private glossario = new Array<Glossario>();
-  private glossariosSubscription: Subscription;
+  public glossario = new Array<Glossario>();
+  public glossariosSubscription: Subscription;
 
   constructor(
-    private glossarioService: GlossarioService ){
+    public glossarioService: GlossarioService ){
     this.glossariosSubscription = this.glossarioService.getGlossarios().subscribe(data => {
       this.glossario = data; 
     });
