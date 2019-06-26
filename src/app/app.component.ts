@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { Platform } from '@ionic/angular';
+import { Platform, AlertController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
@@ -12,7 +12,8 @@ export class AppComponent {
   constructor(
     public platform: Platform,
     public splashScreen: SplashScreen,
-    public statusBar: StatusBar
+    public statusBar: StatusBar,
+    public alertController: AlertController
   ) {
     this.initializeApp();
   }
@@ -22,5 +23,14 @@ export class AppComponent {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+  }
+
+  async presentAlert() { 
+    const alert = await this.alertController.create({
+      header: 'Desenvolvedores: ',
+      message: '<p><strong>André Luiz </strong></p> <p><strong> Douglas Shibata </strong></p> <p><strong> Marcos Allysson </strong></p> <p><strong> Tiago Faccio </strong></p>',
+      buttons: ['OK']
+    });
+    await alert.present();
   }
 }
