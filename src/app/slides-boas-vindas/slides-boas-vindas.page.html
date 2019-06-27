@@ -3,15 +3,24 @@
   <ion-slides pager="true">
 
     <ion-slide>
-      <ion-img src="./assets/imgs/logo.png"></ion-img>
+      <h1> Bem-Vindo ao Aplicativo do IFB Brasília! </h1> 
+      <ion-img src="./assets/imgs/logo.png" routerLink="/tabs/tab1"></ion-img>
 <!--       <ion-img src="https://www.infoenem.com.br/wp-content/uploads/2015/05/ifb.jpg"></ion-img>
  -->    </ion-slide>
 
     <ion-slide>
-      <h1 text-align="center"> Bem-Vindo ao IFB Brasília! </h1> 
-      <ion-button expand="block" fill="outline" routerLink="/tabs/tab1"> App (ツ) </ion-button>
+      <h1> Conheça os Cursos ofertados! </h1>   
+      <ion-img src="./assets/imgs/logo.png"></ion-img>
     </ion-slide>
 
+    <ion-slide>
+      <h1> Aqui é possível conhecer o que cada departamento faz </h1> 
+    </ion-slide>
+
+    <ion-slide routerLink="/tabs/tab1">
+      <h1> Bem-Vindo ao IFB Brasília! </h1> 
+      <ion-button expand="block" color="light" size="large" fill="outline" routerLink="/tabs/tab1"> Continuar </ion-button>
+    </ion-slide>
   </ion-slides>
 
 </ion-content>
