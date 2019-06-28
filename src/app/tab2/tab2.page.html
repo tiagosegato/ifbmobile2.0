@@ -8,7 +8,7 @@
 
 <ion-content>
   <h2><b>Conheça os Cursos do IFB campus Brasília:</b></h2>
-  <h6>Parei no curso id <b>11</b>:   </h6>
+ <!-- <h6>Parei no curso id <b>11</b>:   </h6>-->
   <ion-list>
     <!-- criado array pra exibir cursos, sem repetir vários itens ->> curso.id -->
     <ion-item *ngFor="let curso of cursos" button [routerLink]="['/detalhes', curso.id]"> 

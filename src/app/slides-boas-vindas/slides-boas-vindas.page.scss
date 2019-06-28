@@ -3,15 +3,16 @@ ion-slides{
     height: 100%;
     background-color: #298b39;
     ion-img{
-        width: 50%;
+        width: 60%;
         height: 50%;
-        margin-top: 60%;
         float: left;
         position: fixed;
+        margin-top: 7%;
+        margin-bottom:90%;
     }   
 }
 h1{
-    margin-top: 10px;
+    margin-top: 45%;
     margin-bottom:30px;
     //text-align: center;
     //color: #298b39;
@@ -20,8 +21,8 @@ h1{
 }
 ion-button{
     position: fixed;
-    margin-top: 70%;
+    margin-top: 80%;
     margin-right: 20%;
     margin-left:20%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
