@@ -1,20 +1,20 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title> Perfil </ion-title>
+  <ion-toolbar mode="ios">
+    <ion-title> Login </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content mode="ios" >
   <ion-list inset>
 
-    <ion-item>
-      <ion-label>CPF</ion-label>
-      <ion-input type="text" value="" placeholder="000.000.000-00"></ion-input>
+    <ion-item mode="ios" >
+      <ion-label> E-mail </ion-label>
+      <ion-input type="email" placeholder="your@email.com" [(ngModel)]="userLogin.email"></ion-input>
     </ion-item>
 
-    <ion-item>
+    <ion-item mode="ios" >
       <ion-label>Senha</ion-label>
-      <ion-input type="password" value=""></ion-input>
+      <ion-input type="password" placeholder="******" [(ngModel)]="userLogin.password"></ion-input>
     </ion-item>
 
   </ion-list>
@@ -24,13 +24,9 @@
         Login
       </ion-button>
   
-      <ion-button color="success" expand="block" small fill="outline" routerLink="#">
+      <!-- <ion-button color="success" expand="block" small fill="outline" routerLink="#">
         Primeiro Acesso
-      </ion-button>
-      
-      <ion-button color="success" expand="block" small fill="outline" routerLink="#">
-        Esqueci a senha
-      </ion-button>
-      
+      </ion-button> -->
     </div>
+    
 </ion-content>

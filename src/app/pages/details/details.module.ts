@@ -5,18 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InfoConectaPage } from './info-conecta.page';
+import { DetailsPage } from './details.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: InfoConectaPage,
-    children:[
-      {
-        path:'',
-        loadChildren:'',
-      }
-    ]
+    component: DetailsPage
   }
 ];
 
@@ -27,6 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [InfoConectaPage]
+  declarations: [DetailsPage]
 })
-export class InfoConectaPageModule {}
+export class DetailsPageModule {}

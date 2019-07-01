@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { AngularFirestoreCollection, AngularFirestore } from '@angular/fire/firestore';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root' 
 }) 
 export class CursoService {
   public cursoCollection: AngularFirestoreCollection<Curso>;
@@ -27,4 +27,10 @@ export class CursoService {
   }
 
   getCurso(id: string) { return this.cursoCollection.doc<Curso>(id).valueChanges(); }
+
+  addCurso(product: Curso) { return this.cursoCollection.add(product); }
+
+  updateCurso(id: string, product: Curso) { return this.cursoCollection.doc<Curso>(id).update(product); }
+
+  deleteCurso(id: string) { return this.cursoCollection.doc(id).delete(); }
 }
