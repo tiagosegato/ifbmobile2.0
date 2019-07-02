@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './details.page.html',
   styleUrls: ['./details.page.scss'],
 })
-export class DetailsPage implements OnInit {
+export class DetailsPage implements OnInit { 
   private cursoId: string = null;
   public curso: Curso = {};
   private loading: any;
@@ -33,6 +33,14 @@ export class DetailsPage implements OnInit {
   ngOnInit() { }
 
   ngOnDestroy() { if (this.cursoSubscription) this.cursoSubscription.unsubscribe(); }
+
+  async logout() {
+    await this.presentLoading();
+    
+    try { await this.authService.logout(); this.navCtrl.navigateForward('/perfil'); } 
+    catch (error) { console.error(error); } 
+    finally { this.loading.dismiss(); }
+  }
 
   loadcurso() {
     this.cursoSubscription = this.cursoService.getCurso(this.cursoId).subscribe(data => { 

@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { AuthService } from '../services/auth.service';
 import { LoadingController, ToastController, NavController } from '@ionic/angular';
+import { AuthGuard } from '../guards/auth.guard';
 
 @Component({
   selector: 'app-tab2',
@@ -12,15 +13,17 @@ import { LoadingController, ToastController, NavController } from '@ionic/angula
 })
 export class Tab2Page {
   private loading: any;
+  public curso: Curso = {};
   public cursos = new Array<Curso>(); 
   public cursosSubscription: Subscription;
 
   constructor(
-    private authService: AuthService,
+    private authService: AuthService, 
     private loadingCtrl: LoadingController,
     private toastCtrl: ToastController,
     public cursoService: CursoService,
-    public navtCtrl: NavController
+    public navtCtrl: NavController,
+    public canActivate: AuthGuard
     ){
     this.cursosSubscription = this.cursoService.getCursos().subscribe(data => {
       this.cursos = data; 
@@ -29,20 +32,15 @@ export class Tab2Page {
 
   ngOnDestroy(){ this.cursosSubscription.unsubscribe(); }
 
-  async logout() {
-    await this.presentLoading();
-
-    try { await this.authService.logout(); this.navtCtrl.navigateForward('/perfil'); } 
-    catch (error) { console.error(error); } 
-    finally { this.loading.dismiss(); }
-  }
-
   async presentLoading() {
     this.loading = await this.loadingCtrl.create({ message: 'Aguarde...' });
     return this.loading.present();
   }
 
   async deleteProduct(id: string) {
+    // item escolhido será excluído apenas se tiver sido criado pelo mesmo usuário;
+    this.curso.userId = this.authService.getAuth().currentUser.uid; 
+
     try { await this.cursoService.deleteCurso(id); } 
     catch (error) { this.presentToast('Erro ao tentar deletar'); }
   }

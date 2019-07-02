@@ -1,49 +1,32 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Cursos
-    </ion-title>
+    <ion-title> Cursos </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <h2><b>Conheça os Cursos do IFB campus Brasília:</b></h2>
-  <!-- <h6>Parei no curso id <b>11</b>:   </h6>-->
-  <ion-list>
+  <ion-list lines="none">
     <!-- criado array pra exibir cursos, sem repetir vários itens ->> curso.id -->
     <ion-item-sliding *ngFor="let curso of cursos">
-      <ion-item button [routerLink]="['/detalhes', curso.id]"></ion-item>
-      {{ curso.nome }}
+      <ion-item button [routerLink]="['/detalhes', curso.id]">
+        {{ curso.nome }} 
+      </ion-item>
 
       <ion-item-options side="end">
-        <ion-item-option color="danger" (click)="deleteProduct(curso.id)">
+        <ion-item-option color="danger" (click)="deleteProduct(curso.id)"> 
           <ion-icon slot="top" name="trash"></ion-icon>
           Excluir
         </ion-item-option>
       </ion-item-options>
-
+      
     </ion-item-sliding>
   </ion-list>
 
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add" routerLink="/details"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
 </ion-content>
-
-<ion-footer>
-  <ion-toolbar>
-    <ion-grid>
-      <ion-row>
-        <ion-col size="6">
-          <ion-button (click)="logout()" color="danger" expand="block">
-            Sair
-          </ion-button>
-        </ion-col>
-
-        <ion-col size="6">
-          <ion-button routerLink="/details" expand="block">
-            Add Curso
-          </ion-button>
-        </ion-col>
-        
-      </ion-row>
-    </ion-grid>
-  </ion-toolbar>
-</ion-footer>
