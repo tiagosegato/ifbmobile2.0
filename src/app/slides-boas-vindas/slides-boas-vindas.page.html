@@ -3,19 +3,54 @@
   <ion-slides pager="true">
 
     <ion-slide>
-      <ion-img src="./assets/imgs/logo.png" routerLink="/tabs/tab1"></ion-img> 
-      <h1> Bem-Vindo ao Aplicativo do IFB Brasília! </h1> 
-      <ion-button expand="block" color="light" size="large" fill="outline" routerLink="/tabs/tab1"> Continuar </ion-button>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-img src="./assets/imgs/logo.png" routerLink="/tabs/tab1"></ion-img>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h1> Bem-Vindo ao Aplicativo do IFB Brasília! </h1>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-button expand="block" color="light" size="large" fill="outline" routerLink="/tabs/tab1"> Continuar
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-slide>
 
     <ion-slide>
-      <h1> Conheça os Cursos ofertados! </h1>   
-      <ion-img src="./assets/imgs/cursos.png"></ion-img>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-img src="./assets/imgs/cursos.png" class="tutorial"></ion-img>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h1> Conheça os Cursos ofertados! </h1>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-slide>
 
     <ion-slide>
-      <ion-img src="./assets/imgs/glossario.png"></ion-img>
-      <h1> Aqui é possível conhecer o que cada departamento faz </h1> 
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-img src="./assets/imgs/glossario.png" class="tutorial"></ion-img>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <h1> Aqui é possível conhecer o que cada departamento faz </h1>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-slide>
 
   </ion-slides>
