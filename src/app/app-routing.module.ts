@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'detalhes-glossario', loadChildren: './detalhes-glossario/detalhes-glossario.module#DetalhesGlossarioPageModule' },
   { path: 'detalhes-glossario/:id', loadChildren: './detalhes-glossario/detalhes-glossario.module#DetalhesGlossarioPageModule' },
   { path: 'details', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },
-  { path: 'details/:id', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },
+  { path: 'details/:id', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },  { path: 'certificacao', loadChildren: './ajuda/certificacao/certificacao.module#CertificacaoPageModule' },
+
 
 
 

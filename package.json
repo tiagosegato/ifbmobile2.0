@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:firebase": "npm run build -- --prod && npx firebase deploy" 
+    "deploy:firebase": "npm run build -- --prod && npx firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -39,7 +39,7 @@
     "@angular-devkit/build-angular": "^0.800.2",
     "@angular-devkit/core": "~8.0.2",
     "@angular-devkit/schematics": "~8.0.2",
-    "@angular/cli": "^8.0.2",
+    "@angular/cli": "8.1.1",
     "@angular/compiler": "~8.0.0",
     "@angular/compiler-cli": "^8.0.0",
     "@angular/language-service": "~8.0.0",
