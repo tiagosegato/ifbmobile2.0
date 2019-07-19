@@ -21,6 +21,9 @@ const routes: Routes = [
   { path: 'detalhes-glossario/:id', loadChildren: './detalhes-glossario/detalhes-glossario.module#DetalhesGlossarioPageModule' },
   { path: 'details', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },
   { path: 'details/:id', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },  { path: 'certificacao', loadChildren: './ajuda/certificacao/certificacao.module#CertificacaoPageModule' },
+  { path: 'tipos', loadChildren: './ajuda/tipos/tipos.module#TiposPageModule' },
+  { path: 'modtec', loadChildren: './ajuda/modtec/modtec.module#ModtecPageModule' },
+  { path: 'modsup', loadChildren: './ajuda/modsup/modsup.module#ModsupPageModule' },
 
 
 
