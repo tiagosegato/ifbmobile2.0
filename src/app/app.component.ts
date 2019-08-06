@@ -24,7 +24,14 @@ export class AppComponent {
       this.splashScreen.hide();
     });
   }
-
+  async redeSocial() { 
+    const alert = await this.alertController.create({
+      header: 'Redes Sociais: ',
+      message: '<p>@IFBrasilia – Facebook</p> <p>@IFBRASILIA – Instagram</p> <p>IFBNotícias – Twitter</p> <p>TVIFB - no YouTube.</p>',
+      buttons: ['OK']
+    });
+    await alert.present();
+  }
   async presentAlert() { 
     const alert = await this.alertController.create({
       header: 'Desenvolvedores: ',
