@@ -32,12 +32,5 @@ export class AppComponent {
     });
     await alert.present();
   }
-  async presentAlert() { 
-    const alert = await this.alertController.create({
-      header: 'Desenvolvedores: ',
-      message: '<p><strong>André Luiz </strong></p> <p><strong> Douglas Shibata </strong></p> <p><strong> Marcos Allysson </strong></p> <p><strong> Tiago Faccio </strong></p>',
-      buttons: ['OK']
-    });
-    await alert.present();
-  }
+  
 }

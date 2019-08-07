@@ -1,8 +1,6 @@
 <ion-app>
 
-  <ion-menu side="start" 
-            menuId="first"
-            contentId="principal">
+  <ion-menu side="start" menuId="first" contentId="principal">
     <ion-header>
       <ion-toolbar color="primary">
         <ion-title> Menu </ion-title>
@@ -14,14 +12,11 @@
         <ion-item> Conheça mais sobre o IFB </ion-item>
         <ion-item (click)=redeSocial()> Redes Sociais </ion-item>
         <ion-item routerLink="/sobre"> Sobre </ion-item>
+        <ion-item routerLink="/desenvolvedores"> Desenvolvedores </ion-item>
+        <ion-item routerLink="/perfil"> Administrativo </ion-item>
       </ion-list>
 
     </ion-content>
-
-    <ion-footer>
-        <ion-item (click)="presentAlert()"> Desenvolvedores </ion-item>
-      <ion-item routerLink="/perfil" > Administrativo </ion-item>
-    </ion-footer>
 
   </ion-menu>
 
