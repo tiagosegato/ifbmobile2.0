@@ -23,6 +23,8 @@ const routes: Routes = [
   { path: 'details/:id', loadChildren: './pages/details/details.module#DetailsPageModule', canActivate: [AuthGuard] },  { path: 'certificacao', loadChildren: './ajuda/certificacao/certificacao.module#CertificacaoPageModule' },
   { path: 'sobre', loadChildren: './ajuda/sobre/sobre.module#SobrePageModule' },
   { path: 'desenvolvedores', loadChildren: './desenvolvedores/desenvolvedores.module#DesenvolvedoresPageModule' },
+  { path: 'rede-social', loadChildren: './ajuda/rede-social/rede-social.module#RedeSocialPageModule' },
+  { path: 'horario', loadChildren: './ajuda/horario/horario.module#HorarioPageModule' },
 
 
 
