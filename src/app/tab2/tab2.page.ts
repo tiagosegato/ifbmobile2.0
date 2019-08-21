@@ -12,7 +12,7 @@ import { AuthGuard } from '../guards/auth.guard';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-  private loading: any;
+  private loading: any; 
   public curso: Curso = {};
   public cursos = new Array<Curso>(); 
   public cursosSubscription: Subscription;

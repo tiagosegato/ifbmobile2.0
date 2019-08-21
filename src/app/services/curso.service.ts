@@ -26,7 +26,7 @@ export class CursoService {
     )
   }
 
-  getCurso(id: string) { return this.cursoCollection.doc<Curso>(id).valueChanges(); }
+  getCurso(id: string) { return this.cursoCollection.doc<Curso>(id).valueChanges(); } 
 
   addCurso(product: Curso) { return this.cursoCollection.add(product); }
 

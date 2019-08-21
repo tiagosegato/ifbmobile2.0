@@ -26,7 +26,7 @@ export class PerfilPage implements OnInit {
   async login() {
     await this.presentLoading();
 
-    try { await this.authService.login(this.userLogin); this.navCtrl.navigateForward('/tab2'); } 
+    try { await this.authService.login(this.userLogin); this.navCtrl.navigateForward('/tabs/tab1'); } 
     catch (error) { this.presentToast(error.message); } 
     finally { this.loading.dismiss(); }
   }

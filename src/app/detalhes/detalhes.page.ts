@@ -3,8 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { CursoService } from '../services/curso.service';
-import { LoadingController, NavController, ToastController } from '@ionic/angular';
-import { AuthService } from '../services/auth.service';
+import { LoadingController, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-detalhes',
@@ -13,7 +12,7 @@ import { AuthService } from '../services/auth.service';
 })
 
 export class DetalhesPage implements OnInit { 
-  public curso: Curso = {};
+  public curso: Curso = {}; 
   public cursoId: string = null;
   private loading: any;
   public cursoSubscription: Subscription;
@@ -21,9 +20,7 @@ export class DetalhesPage implements OnInit {
   constructor(
     private cursoService: CursoService,
     private activatedRoute: ActivatedRoute,
-    private navCtrl: NavController,
     private loadingCtrl: LoadingController,
-    private authService: AuthService,
     private toastCtrl: ToastController
   ){
     this.cursoId = this.activatedRoute.snapshot.params['id'];

@@ -8,10 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { PerfilPage } from './perfil.page';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PerfilPage
-  }
+  { path: '', component: PerfilPage }
 ];
 
 @NgModule({

@@ -27,4 +27,10 @@ export class GlossarioService {
   }
 
   getGlossario(id: string) { return this.glossarioCollection.doc<Glossario>(id).valueChanges(); }
+
+  addGlossario(product: Glossario) { return this.glossarioCollection.add(product); }
+
+  updateGlossario(id: string, product: Glossario) { return this.glossarioCollection.doc<Glossario>(id).update(product); }
+
+  deleteGlossario(id: string) { return this.glossarioCollection.doc(id).delete(); }
 }

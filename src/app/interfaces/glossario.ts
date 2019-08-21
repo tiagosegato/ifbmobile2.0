@@ -8,4 +8,6 @@ export interface Glossario {
     responsavel? : string;
     horario? : string;
     email? : string;
+    userId?: string;
+    createdAt?: string;
 }

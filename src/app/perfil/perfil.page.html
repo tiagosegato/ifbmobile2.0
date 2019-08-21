@@ -1,19 +1,19 @@
 <ion-header>
   <ion-toolbar mode="ios">
-      <ion-icon routerLink="/tabs/tab1" name="arrow-round-back"></ion-icon>
-    <ion-title> Login </ion-title>
+    <ion-icon routerLink="/tabs/tab1" name="arrow-round-back"></ion-icon>
+    <ion-title> Login Administrativo </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content mode="ios" >
+<ion-content mode="ios">
   <ion-list inset>
 
-    <ion-item mode="ios" >
+    <ion-item mode="ios">
       <ion-label> E-mail </ion-label>
       <ion-input type="email" placeholder="your@email.com" [(ngModel)]="userLogin.email"></ion-input>
     </ion-item>
 
-    <ion-item mode="ios" >
+    <ion-item mode="ios">
       <ion-label>Senha</ion-label>
       <ion-input type="password" placeholder="******" [(ngModel)]="userLogin.password"></ion-input>
     </ion-item>
@@ -21,13 +21,7 @@
   </ion-list>
 
   <div padding>
-      <ion-button color="success" expand="block" (click)="login()">
-        Login
-      </ion-button>
-  
-      <!-- <ion-button color="success" expand="block" small fill="outline" routerLink="#">
-        Primeiro Acesso
-      </ion-button> -->
-    </div>
-    
+    <ion-button color="success" expand="block" (click)="login()"> Login </ion-button>
+  </div>
+
 </ion-content>

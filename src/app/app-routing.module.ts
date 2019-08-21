@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './guards/auth.guard';
-//import { LoginGuard } from './guards/login.guard';
 
 const routes: Routes = [
   { path: '', redirectTo: 'slides-boas-vindas', pathMatch: 'full' },
@@ -11,7 +10,6 @@ const routes: Routes = [
   { path: 'detalhes', loadChildren: './detalhes/detalhes.module#DetalhesPageModule' },
   { path: 'detalhes/:id', loadChildren: './detalhes/detalhes.module#DetalhesPageModule' },
   { path: 'perfil', loadChildren: './perfil/perfil.module#PerfilPageModule' },
-  { path: 'perfil-logado', loadChildren: './perfil-logado/perfil-logado.module#PerfilLogadoPageModule' }, // canActivate: [AuthGuard]
   { path: 'tab2', loadChildren: './tab2/tab2.module#Tab2PageModule' },
   { path: 'publico', loadChildren: './ajuda/publico/publico.module#PublicoPageModule' },
   { path: 'entrar', loadChildren: './ajuda/entrar/entrar.module#EntrarPageModule' },
@@ -31,9 +29,7 @@ const routes: Routes = [
   { path: 'tipos', loadChildren: './ajuda/tipos/tipos.module#TiposPageModule' },
   { path: 'modtec', loadChildren: './ajuda/modtec/modtec.module#ModtecPageModule' },
   { path: 'modsup', loadChildren: './ajuda/modsup/modsup.module#ModsupPageModule' },
-
-
-
+  { path: 'details-glossario', loadChildren: './pages/details-glossario/details-glossario.module#DetailsGlossarioPageModule', canActivate: [AuthGuard] },
 
 
 ];

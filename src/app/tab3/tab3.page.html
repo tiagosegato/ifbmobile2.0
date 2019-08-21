@@ -1,20 +1,36 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Glossário
-    </ion-title>
+    <ion-buttons slot="start" routerLink="/tabs/tab1">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title> Glossário </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <h2><b> Conheça as siglas do IFB:</b></h2> 
-   <!-- <ion-searchbar animated></ion-searchbar> -->
+  <h2><b> Conheça as siglas do IFB:</b></h2>
 
-  <ion-list>
-    <!-- criado array pra exibir siglas, sem repetir vários itens -->
-    <ion-item *ngFor="let Glossario of glossario" button [routerLink]="['/detalhes-glossario', Glossario.id]">
-      {{Glossario.sigla}}
-    </ion-item>
+  <ion-list lines="none">
+    <!-- criado array pra exibir cursos, sem repetir vários itens ->> curso.id -->
+    <ion-item-sliding *ngFor="let Glossario of glossario">
+      <ion-item button [routerLink]="['/detalhes-glossario', Glossario.id]">
+        {{Glossario.sigla}}
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="deleteProduct(Glossario.id)">
+          <ion-icon slot="top" name="trash"></ion-icon>
+          Excluir
+        </ion-item-option>
+      </ion-item-options>
+
+    </ion-item-sliding>
   </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add" routerLink="/details-glossario"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 
 </ion-content>
