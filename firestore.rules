@@ -10,8 +10,14 @@ service cloud.firestore {
       allow delete: if resource.data.userId == resource.auth.uid;
     }
     
-    match /glossario/{documents}{
+    match /glossario/{glossarioId}{
     	allow read, write;
+      
+      allow update: if
+        request.resource.data.userId == request.auth.uid &&
+        resource.data.userId == request.auth.uid
+        
+        allow delete: if resource.data.userId == resource.auth.uid;
     }
     
   }
