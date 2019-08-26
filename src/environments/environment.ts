@@ -1,12 +1,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBHWOPPjlR5viulFD1iHe1hASqAuczTTAQ",
-    authDomain: "ifbmobileprojeto-fa44d.firebaseapp.com",
-    databaseURL: "https://ifbmobileprojeto-fa44d.firebaseio.com",
-    projectId: "ifbmobileprojeto-fa44d",
-    storageBucket: "ifbmobileprojeto-fa44d.appspot.com",
-    messagingSenderId: "697500726733",
-    appId: "1:697500726733:web:86c36a5f61a6e082"
+    apiKey: "AIzaSyBMbc8A9pnJeRyjvXrzjdTgiCrCMCYf3zI",
+    authDomain: "ifbmobile-717fd.firebaseapp.com",
+    databaseURL: "https://ifbmobile-717fd.firebaseio.com",
+    projectId: "ifbmobile-717fd",
+    storageBucket: "",
+    messagingSenderId: "439647254805",
+    appId: "1:439647254805:web:5caf8790409d9ef5"
   }
 };
